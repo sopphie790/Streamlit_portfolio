@@ -18,15 +18,19 @@ It is created for a student developer portfolio (Liza Jaime).
 - ⚡ Fast and lightweight Streamlit web app  
 
 ---
-
-## 🧱 Project Structure
-project-folder/
-│
-├── home.py
-├── images/
-│ ├── profile.png
-│ └── logo1.png
-└── README.md
+##📂 Project Structure
+This project follows a modular structure to maintain a clean development environment and ensure efficient asset management.
+/
+├── .devcontainer/      # Configuration for consistent development environments
+├── images/             # Organized directory for all visual assets
+│   ├── branding/       # Official logos and profile images
+│   ├── certificates/   # Academic and professional certifications
+│   ├── portfolio/      # High-resolution edits and restoration samples
+│   └── projects/       # System screenshots and dashboard previews
+├── pages/              # Additional application modules or sub-pages
+├── Home.py             # Main entry point for the application
+├── README.md           # Project documentation and setup guide
+└── requirements.text   # List of necessary Python dependencies and libraries
 
 ---
 
